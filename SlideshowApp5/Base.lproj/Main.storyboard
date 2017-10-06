@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="landscape">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,25 +19,25 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Txy-7p-aRV">
-                                <rect key="frame" x="334" y="250" width="40" height="30"/>
+                                <rect key="frame" x="210" y="250" width="40" height="30"/>
                                 <state key="normal" title="進む"/>
                                 <connections>
                                     <action selector="onNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0fN-b6-SxM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEj-8y-gHg">
-                                <rect key="frame" x="264" y="250" width="40" height="30"/>
+                                <rect key="frame" x="140" y="250" width="40" height="30"/>
                                 <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="onAutoPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wYR-bj-WGN"/>
                                 </connections>
                             </button>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yTX-Z0-j5O">
-                                <rect key="frame" x="194" y="45" width="180" height="180"/>
+                                <rect key="frame" x="70" y="45" width="180" height="180"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="94F-Gc-h5K"/>
@@ -48,7 +48,7 @@
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWR-sX-lCH">
-                                <rect key="frame" x="194" y="250" width="40" height="30"/>
+                                <rect key="frame" x="70" y="250" width="40" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <action selector="onPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rrc-9y-BC7"/>
@@ -98,11 +98,11 @@
                         <viewControllerLayoutGuide type="bottom" id="N4A-XT-XnM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="C7b-T7-N33">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rL4-Ey-zIj">
-                                <rect key="frame" x="146.5" y="22" width="275" height="275"/>
+                                <rect key="frame" x="22.5" y="22" width="275" height="275"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="275" id="F10-oG-zEs"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="260" id="H1r-Pb-29t"/>
@@ -111,7 +111,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8NS-df-9rk">
-                                <rect key="frame" x="268.5" y="300" width="31" height="30"/>
+                                <rect key="frame" x="144.5" y="300" width="31" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="8NS-df-9rk" secondAttribute="height" multiplier="31:30" id="SSQ-JC-LWr"/>
                                 </constraints>

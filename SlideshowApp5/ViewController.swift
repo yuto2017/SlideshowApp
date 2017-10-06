@@ -33,6 +33,9 @@ class ViewController: UIViewController {
             self.timer.invalidate()   // 現在のタイマーを破棄する
             self.timer = nil          // startTimer() の timer == nil で判断するために、 timer = nil としておく
         }
+        onPrevButton.isEnabled = true // ボタン有効
+        onNextButton.isEnabled = true // ボタン有効
+        onPlayStopButton.setTitle("再生", for: .normal) // ボタンのタイトル
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -140,7 +143,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
-        
 
     }
 }
