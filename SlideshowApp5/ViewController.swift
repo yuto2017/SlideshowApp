@@ -94,11 +94,11 @@ class ViewController: UIViewController {
         
         // 範囲より下を指している場合、最後の画像を表示
         if dispImageNo < 0 {
-            dispImageNo = 2
+            dispImageNo = imageNameArray.count - 1
         }
         
         // 範囲より上を指している場合、最初の画像を表示
-        if dispImageNo > 2 {
+        if dispImageNo > imageNameArray.count - 1 {
             dispImageNo = 0
         }
 
